@@ -500,6 +500,7 @@ body {
                 border: none;
                 outline: none;
                 color: $black-primary;
+                @include textProperties(500, 16px, 24px);
                 -moz-appearance: none;
                 -webkit-appearance: none;
                 appearance: none;
